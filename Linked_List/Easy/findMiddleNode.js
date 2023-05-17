@@ -1,3 +1,5 @@
+// Time Complexity O(n), Space Complexity O(1);
+
 function findMiddleNode(linkedList) {
     let slow = linkedList;
     let fast = linkedList;
