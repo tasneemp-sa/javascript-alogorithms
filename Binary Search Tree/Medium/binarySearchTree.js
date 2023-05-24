@@ -117,6 +117,7 @@ class BST {
                 let tempNode = node.right;
                 while (node.left !== null) {
                     tempNode = node.left;
+                    node = node.left;
                 }
 
                 node.data = tempNode.data;
