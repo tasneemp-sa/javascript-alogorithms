@@ -1,4 +1,4 @@
-// Time O(n), Space O(n)
+// Time O(n), Space O(d)
 
 class BSTNode {
     constructor(value) {
