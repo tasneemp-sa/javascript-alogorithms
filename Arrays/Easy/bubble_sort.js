@@ -1,3 +1,5 @@
+// TIme O(n^2), Space O(1)
+
 const swap = (arr, i, j) => {
     let temp = arr[i];
     arr[i] = arr[j];
